@@ -1,5 +1,5 @@
 interface LeftPanelProps {
-
+  className?: string
 }
 
 export default function LeftPanel(props: LeftPanelProps) {
@@ -7,7 +7,7 @@ export default function LeftPanel(props: LeftPanelProps) {
     <div className={`
       flex justify-center items-center
       bg-gradient-to-b from-emerald-900 to bg-emerald-700
-      h-screen
+      h-screen ${props.className}
     `}>
       <div className={`
         flex flex-col text-xl
