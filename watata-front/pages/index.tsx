@@ -6,8 +6,8 @@ export default function Index() {
   return (
     <div className="flex">
       <Layout title="Link Generator">
-        <LeftPanel className="w-1/2"></LeftPanel>
-        <WhatForm className="w-1/2"></WhatForm>
+        <LeftPanel className="w-full md:w-1/2"></LeftPanel>
+        <WhatForm className="w-full md:w-1/2"></WhatForm>
       </Layout>
     </div>
   )
